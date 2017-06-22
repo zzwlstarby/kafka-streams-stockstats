@@ -16,6 +16,11 @@ public class Trade {
         this.price = price;
         this.size = size;
     }
+    
+    public double getPrice() {
+    	return price;
+    }
+    
 
     @Override
     public String toString() {
